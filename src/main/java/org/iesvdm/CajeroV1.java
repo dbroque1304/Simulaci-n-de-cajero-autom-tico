@@ -3,7 +3,7 @@ package org.iesvdm;
 import java.util.Scanner;
 
 public class CajeroV1 {
-    private static Scanner sc = new Scanner(System.in);
+    private final static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         double saldo = 1000.00;
         int opcion;
